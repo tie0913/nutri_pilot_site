@@ -2,7 +2,7 @@
 
 import tie from '@/assets/tie.jpg'
 import smit from '@/assets/smit.jpg'
-import nihar from '@/assets/nihar.jpg'
+import nihar from '@/assets/Nihar.jpg'
 
 </script>
 
