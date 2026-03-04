@@ -3,6 +3,7 @@
 import tie from '@/assets/tie.jpg'
 import smit from '@/assets/smit.jpg'
 import nihar from '@/assets/Nihar.jpg'
+import dhruv from '@/assets/dhruv.jpg'
 
 </script>
 
@@ -51,9 +52,10 @@ import nihar from '@/assets/Nihar.jpg'
                             </div>
 
                             <div class="flex items-center gap-4">
+                                <img :src="dhruv" alt="Dhruv Patel" class="w-16 h-16 rounded-full object-cover" />
                                 <!-- Dhruv Patel -->
                                 <div>
-                                    <a href="#" target="_blank" rel="noopener noreferrer"
+                                    <a href="https://www.linkedin.com/in/dhruv-patel-b7b7a7212/" target="_blank" rel="noopener noreferrer"
                                         class="text-xl font-semibold text-gray-900 hover:text-green-700 transition-colors duration-200">
                                         Dhruv Patel
                                     </a>
