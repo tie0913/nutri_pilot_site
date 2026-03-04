@@ -1,4 +1,9 @@
 <script setup>
+
+import tie from '@/assets/tie.jpg'
+import smit from '@/assets/smit.jpg'
+import nihar from '@/assets/nihar.jpg'
+
 </script>
 
 <template>
@@ -30,62 +35,75 @@
                         </h3>
                         <div class="mt-10 space-y-10">
 
-                            <!-- Tie Wang -->
-                            <div>
-                                <a href="https://www.linkedin.com/in/tie-wang-9b9053275/" target="_blank"
-                                    rel="noopener noreferrer"
-                                    class="text-xl font-semibold text-gray-900 hover:text-green-700 transition-colors duration-200">
-                                    Tie Wang
-                                </a>
-                                <p class="mt-2 text-sm text-gray-500">
-                                    System Architect · Full-Stack Developer · DevOps
-                                </p>
+                            <div class="flex items-center gap-4">
+                                <img :src="tie" alt="Tie Wang" class="w-16 h-16 rounded-full object-cover" />
+                                <!-- Tie Wang -->
+                                <div>
+                                    <a href="https://www.linkedin.com/in/tie-wang-9b9053275/" target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="text-xl font-semibold text-gray-900 hover:text-green-700 transition-colors duration-200">
+                                        Tie Wang
+                                    </a>
+                                    <p class="mt-2 text-sm text-gray-500">
+                                        System Architect · Full-Stack Developer · DevOps
+                                    </p>
+                                </div>
                             </div>
 
-                            <!-- Dhruv Patel -->
-                            <div>
-                                <a href="#" target="_blank" rel="noopener noreferrer"
-                                    class="text-xl font-semibold text-gray-900 hover:text-green-700 transition-colors duration-200">
-                                    Dhruv Patel
-                                </a>
-                                <p class="mt-2 text-sm text-gray-500">
-                                    Tester
-                                </p>
+                            <div class="flex items-center gap-4">
+                                <!-- Dhruv Patel -->
+                                <div>
+                                    <a href="#" target="_blank" rel="noopener noreferrer"
+                                        class="text-xl font-semibold text-gray-900 hover:text-green-700 transition-colors duration-200">
+                                        Dhruv Patel
+                                    </a>
+                                    <p class="mt-2 text-sm text-gray-500">
+                                        Tester
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <img :src="nihar" alt="Nihar Parekh" class="w-16 h-16 rounded-full object-cover" />
+                                <!-- Nihar Parekh -->
+                                <div>
+                                    <a href="https://www.linkedin.com/in/nihar-parekh-3088a6239/" target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="text-xl font-semibold text-gray-900 hover:text-green-700 transition-colors duration-200">
+                                        Nihar Parekh
+                                    </a>
+                                    <p class="mt-2 text-sm text-gray-500">
+                                        Tester
+                                    </p>
+                                </div>
                             </div>
 
-                            <!-- Nihar Parekh -->
-                            <div>
-                                <a href="https://www.linkedin.com/in/nihar-parekh-3088a6239/" target="_blank" rel="noopener noreferrer"
-                                    class="text-xl font-semibold text-gray-900 hover:text-green-700 transition-colors duration-200">
-                                    Nihar Parekh
-                                </a>
-                                <p class="mt-2 text-sm text-gray-500">
-                                    Tester
-                                </p>
+                            <div class="flex items-center gap-4">
+                                <img :src="smit" alt="Smit Ashwinbhai Parmar"
+                                    class="w-16 h-16 rounded-full object-cover" />
+                                <!-- Smit -->
+                                <div>
+                                    <a href="https://www.linkedin.com/in/smit-parmar-745a89363/" target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="text-xl font-semibold text-gray-900 hover:text-green-700 transition-colors duration-200">
+                                        Smit Ashwinbhai Parmar
+                                    </a>
+                                    <p class="mt-2 text-sm text-gray-500">
+                                        UI Designer
+                                    </p>
+                                </div>
                             </div>
-
-                            <!-- Smit -->
-                            <div>
-                                <a href="https://www.linkedin.com/in/smit-parmar-745a89363/" target="_blank" rel="noopener noreferrer"
-                                    class="text-xl font-semibold text-gray-900 hover:text-green-700 transition-colors duration-200">
-                                    Smit
-                                </a>
-                                <p class="mt-2 text-sm text-gray-500">
-                                    UI Designer
-                                </p>
+                            <div class="flex items-center gap-4">
+                                <!-- Ayra Bharatbhai Patel -->
+                                <div>
+                                    <a href="#" target="_blank" rel="noopener noreferrer"
+                                        class="text-xl font-semibold text-gray-900 hover:text-green-700 transition-colors duration-200">
+                                        Ayra Bharatbhai Patel
+                                    </a>
+                                    <p class="mt-2 text-sm text-gray-500">
+                                        UI Designer
+                                    </p>
+                                </div>
                             </div>
-
-                            <!-- Ayra Bharatbhai Patel -->
-                            <div>
-                                <a href="#" target="_blank" rel="noopener noreferrer"
-                                    class="text-xl font-semibold text-gray-900 hover:text-green-700 transition-colors duration-200">
-                                    Ayra Bharatbhai Patel
-                                </a>
-                                <p class="mt-2 text-sm text-gray-500">
-                                    UI Designer
-                                </p>
-                            </div>
-
                         </div>
 
 
@@ -187,9 +205,10 @@
                         </h3>
 
                         <ul class="mt-6 space-y-3 text-gray-600 leading-relaxed">
-                            <li>Cloud object storage integration</li>
-                            <li>Database persistence layer</li>
-                            <li>Secure API communication</li>
+                            <li>Gpt-4o-mini integeration</li>
+                            <li>Cloudflare R2 object storage</li>
+                            <li>Persistent database storage</li>
+                            <li>RESTful API communication</li>
                             <li>Container-ready deployment</li>
                         </ul>
                     </div>
