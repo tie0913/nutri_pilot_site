@@ -55,7 +55,7 @@
 
                             <!-- Nihar Parekh -->
                             <div>
-                                <a href="#" target="_blank" rel="noopener noreferrer"
+                                <a href="https://www.linkedin.com/in/nihar-parekh-3088a6239/" target="_blank" rel="noopener noreferrer"
                                     class="text-xl font-semibold text-gray-900 hover:text-green-700 transition-colors duration-200">
                                     Nihar Parekh
                                 </a>
@@ -66,7 +66,7 @@
 
                             <!-- Smit -->
                             <div>
-                                <a href="#" target="_blank" rel="noopener noreferrer"
+                                <a href="https://www.linkedin.com/in/smit-parmar-745a89363/" target="_blank" rel="noopener noreferrer"
                                     class="text-xl font-semibold text-gray-900 hover:text-green-700 transition-colors duration-200">
                                     Smit
                                 </a>
