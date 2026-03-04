@@ -21,7 +21,7 @@ const open=ref(false)
     <nav class="hidden md:flex gap-8 text-gray-600">
       <a href="#" class="hover:text-black">Home</a>
       <a href="#" class="hover:text-black">Features</a>
-      <a href="#" class="hover:text-black">Demo</a>
+      <a href="#" class="hover:text-black">Download</a>
       <a href="#" class="hover:text-black">About</a>
     </nav>
 
