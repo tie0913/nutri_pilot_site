@@ -3,7 +3,7 @@ import app from '@/assets/app.png'
 import { InformationCircleIcon, ArrowDownCircleIcon} from '@heroicons/vue/24/outline';
 </script>
 <template>
-    <section class="min-h-screen flex items-center bg-white px-6">
+    <section id="hero" class="min-h-screen flex items-center bg-white px-6">
         <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
             <!-- 左侧文字 -->
             <div class="text-center md:text-left">
@@ -23,14 +23,14 @@ import { InformationCircleIcon, ArrowDownCircleIcon} from '@heroicons/vue/24/out
 
                 <div class="mt-8 flex justify-center md:justify-start gap-4">
                    
-                    <button class="px-6 py-3 bg-green-700 hover:bg-green-900 text-white rounded-full transition cursor-pointer flex items-center gap-2">
+                    <a href="#features" class="px-6 py-3 bg-green-700 hover:bg-green-900 text-white rounded-full transition cursor-pointer flex items-center gap-2">
                         <InformationCircleIcon class="w-6 h-6"/>
                         <span class="">Learn More</span>
-                    </button>
-                    <button class="px-6 py-3 border border-gray-400 hover:border-green-800 rounded-full cursor-pointer flex item-center gap-2">
+                    </a>
+                    <a href="#download" class="px-6 py-3 border border-gray-400 hover:border-green-800 rounded-full cursor-pointer flex item-center gap-2">
                         <ArrowDownCircleIcon class="w-6 h-6"/>
                       Download
-                    </button>
+                    </a>
                 </div>
             </div>
 

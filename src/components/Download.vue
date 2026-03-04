@@ -11,7 +11,7 @@ const testFlightUrl = ''                                  // 有了就填，没�
 </script>
 
 <template>
-    <section class="py-28 bg-white px-6">
+    <section id="download" class="py-28 bg-white px-6">
         <div class="max-w-7xl mx-auto">
 
             <!-- Title -->

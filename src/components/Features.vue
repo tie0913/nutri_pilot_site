@@ -3,7 +3,7 @@ import feedback from '@/assets/ai-feedback.png'
 </script>
 
 <template>
-  <section class="py-24 bg-white px-6">
+  <section id="features" class="py-24 bg-white px-6">
     <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
       <!-- 左侧文字 -->

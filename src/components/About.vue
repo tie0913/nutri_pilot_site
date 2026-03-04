@@ -7,7 +7,7 @@ import nihar from '@/assets/Nihar.jpg'
 </script>
 
 <template>
-    <section class="py-28 bg-white px-6">
+    <section id="about" class="py-28 bg-white px-6">
         <div class="max-w-7xl mx-auto space-y-32">
 
             <!-- ======================= -->

@@ -19,10 +19,10 @@ const open=ref(false)
 
     <!-- 导航 -->
     <nav class="hidden md:flex gap-8 text-gray-600">
-      <a href="#" class="hover:text-black">Home</a>
-      <a href="#" class="hover:text-black">Features</a>
-      <a href="#" class="hover:text-black">Download</a>
-      <a href="#" class="hover:text-black">About</a>
+      <a href="#hero" class="hover:text-black">Home</a>
+      <a href="#features" class="hover:text-black">Features</a>
+      <a href="#download" class="hover:text-black">Download</a>
+      <a href="#about" class="hover:text-black">About</a>
     </nav>
 
     <button @click="open = !open" class="md:hidden text-2xl">

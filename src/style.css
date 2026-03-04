@@ -8,3 +8,7 @@ body {
 img {
      -webkit-user-drag: none;
 }
+
+html {
+  scroll-behavior: smooth;
+}
