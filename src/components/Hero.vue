@@ -37,12 +37,10 @@ import { InformationCircleIcon, ArrowDownCircleIcon} from '@heroicons/vue/24/out
             <!-- 右侧手机截图区域 -->
             <div class="flex justify-center">
                 <div class="w-[260px] md:w-[320px] aspect-[9/19.5] bg-gray-200 rounded-[2rem] overflow-hidden shadow-2xl flex items-center justify-center">
-                    
                     <!--
-                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/PpI3tH1lzD8?si=M5aqAIeWhNVTMMOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <img :src="app" class="w-full h-full object-cover "/>
                     -->
-                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/oC1-kfp8Lw0" title="Nutri Pilot Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="w-full h-full" src="https://player.vimeo.com/video/1171169957?h=6ba992cae4" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
                 </div>
             </div>
 
