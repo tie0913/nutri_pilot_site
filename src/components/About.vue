@@ -4,7 +4,8 @@ import tie from '@/assets/tie.jpg'
 import smit from '@/assets/smit.jpg'
 import nihar from '@/assets/Nihar.jpg'
 import dhruv from '@/assets/dhruv.jpg'
-
+import alex from '@/assets/alex_icon.png'
+import placeholder from '@/assets/placeholder.jpg'
 </script>
 
 <template>
@@ -55,7 +56,8 @@ import dhruv from '@/assets/dhruv.jpg'
                                 <img :src="dhruv" alt="Dhruv Patel" class="w-16 h-16 rounded-full object-cover" />
                                 <!-- Dhruv Patel -->
                                 <div>
-                                    <a href="https://www.linkedin.com/in/dhruv-patel-b7b7a7212/" target="_blank" rel="noopener noreferrer"
+                                    <a href="https://www.linkedin.com/in/dhruv-patel-b7b7a7212/" target="_blank"
+                                        rel="noopener noreferrer"
                                         class="text-xl font-semibold text-gray-900 hover:text-green-700 transition-colors duration-200">
                                         Dhruv Patel
                                     </a>
@@ -96,6 +98,8 @@ import dhruv from '@/assets/dhruv.jpg'
                             </div>
                             <div class="flex items-center gap-4">
                                 <!-- Ayra Bharatbhai Patel -->
+                                <img :src="placeholder" alt="Ayra Bharatbhai Patel"
+                                    class="w-16 h-16 rounded-full object-cover" />
                                 <div>
                                     <a href="#" target="_blank" rel="noopener noreferrer"
                                         class="text-xl font-semibold text-gray-900 hover:text-green-700 transition-colors duration-200">
@@ -117,33 +121,37 @@ import dhruv from '@/assets/dhruv.jpg'
                             Faculty Advisors
                         </h3>
                         <div class="mt-10 space-y-10">
+                            <div class="flex items-center gap-4">
+                                <img :src="alex" alt="Alex Wang" class="w-16 h-16 rounded-full object-cover" />
+                                <!-- Alex Wang -->
+                                <div>
+                                    <a href="https://www.linkedin.com/in/alex-wang-2b79593/" target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="text-xl font-semibold text-gray-900 hover:text-green-700 transition-colors duration-200">
+                                        Alex Wang
+                                    </a>
 
-                            <!-- Alex Wang -->
-                            <div>
-                                <a href="https://www.linkedin.com/in/alex-wang-2b79593/" target="_blank"
-                                    rel="noopener noreferrer"
-                                    class="text-xl font-semibold text-gray-900 hover:text-green-700 transition-colors duration-200">
-                                    Alex Wang
-                                </a>
-
-                                <p class="mt-2 text-sm text-gray-500">
-                                    Project Supervisor · Client Proxy
-                                </p>
+                                    <p class="mt-2 text-sm text-gray-500">
+                                        Project Supervisor · Client Proxy
+                                    </p>
+                                </div>
                             </div>
 
-                            <!-- Kelci Huang -->
-                            <div>
-                                <a href="https://www.linkedin.com/in/yingchao-kelci-huang-28428171/" target="_blank"
-                                    rel="noopener noreferrer"
-                                    class="text-xl font-semibold text-gray-900 hover:text-green-700 transition-colors duration-200">
-                                    Kelci Huang
-                                </a>
+                            <div class="flex items-center gap-4">
+                                <img :src="placeholder" alt="Kelci Huang" class="w-16 h-16 rounded-full object-cover" />
+                                <!-- Kelci Huang -->
+                                <div>
+                                    <a href="https://www.linkedin.com/in/yingchao-kelci-huang-28428171/" target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="text-xl font-semibold text-gray-900 hover:text-green-700 transition-colors duration-200">
+                                        Kelci Huang
+                                    </a>
 
-                                <p class="mt-2 text-sm text-gray-500">
-                                    Academic Advisor
-                                </p>
+                                    <p class="mt-2 text-sm text-gray-500">
+                                        Academic Advisor
+                                    </p>
+                                </div>
                             </div>
-
                         </div>
 
                     </div>
