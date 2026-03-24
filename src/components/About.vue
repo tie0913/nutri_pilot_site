@@ -76,7 +76,7 @@ import placeholder from '@/assets/placeholder.jpg'
                                         Nihar Parekh
                                     </a>
                                     <p class="mt-2 text-sm text-gray-500">
-                                        Tester
+                                        AI Tester
                                     </p>
                                 </div>
                             </div>
@@ -97,13 +97,13 @@ import placeholder from '@/assets/placeholder.jpg'
                                 </div>
                             </div>
                             <div class="flex items-center gap-4">
-                                <!-- Ayra Bharatbhai Patel -->
+                                <!-- Arya Bharatbhai Patel -->
                                 <img :src="placeholder" alt="Ayra Bharatbhai Patel"
                                     class="w-16 h-16 rounded-full object-cover" />
                                 <div>
                                     <a href="#" target="_blank" rel="noopener noreferrer"
                                         class="text-xl font-semibold text-gray-900 hover:text-green-700 transition-colors duration-200">
-                                        Ayra Bharatbhai Patel
+                                        Arya Bharatbhai Patel
                                     </a>
                                     <p class="mt-2 text-sm text-gray-500">
                                         UI Designer
