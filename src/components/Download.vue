@@ -2,7 +2,7 @@
 import { ArrowDownTrayIcon, DevicePhoneMobileIcon, CodeBracketIcon, VideoCameraIcon } from '@heroicons/vue/24/outline'
 
 // TODO: 按你的实际情况改链接
-const apkUrl = '#'
+const apkUrl = 'https://pub-6adeb56d70564b469fc449d6bd570f3e.r2.dev/NutriPilot-release.apk'
 //'/downloads/nutripilot-alpha.apk'         // 放在 public/downloads/ 下最方便
 const backendRepo = 'https://github.com/tie0913/nuitri_pilot_backend'         // 你的 repo
 const frontendRepo = 'https://github.com/tie0913/nuitri_pilot_frontend'
@@ -41,7 +41,7 @@ const testFlightUrl = ''                                  // 有了就填，没�
                         <a :href="apkUrl"
                             class="inline-flex items-center gap-2 px-6 py-3 bg-green-700 hover:bg-green-900 text-white rounded-full transition-colors">
                             <ArrowDownTrayIcon class="w-5 h-5" />
-                            Download APK (Comming Soon)
+                            Download APK
                         </a>
                         <p class="mt-3 text-sm text-gray-500">
                             Alpha build · Manual install
