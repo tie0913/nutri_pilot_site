@@ -215,7 +215,7 @@ import placeholder from '@/assets/placeholder.jpg'
                         </h3>
 
                         <ul class="mt-6 space-y-3 text-gray-600 leading-relaxed">
-                            <li>Gpt-4o-mini integeration</li>
+                            <li>Gpt-5.4-mini integeration</li>
                             <li>Cloudflare R2 object storage</li>
                             <li>Persistent database storage</li>
                             <li>RESTful API communication</li>
