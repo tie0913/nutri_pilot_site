@@ -6,6 +6,7 @@ import nihar from '@/assets/Nihar.jpg'
 import dhruv from '@/assets/dhruv.jpg'
 import alex from '@/assets/alex_icon.png'
 import placeholder from '@/assets/placeholder.jpg'
+import kelci from '@/assets/kelci.png'
 </script>
 
 <template>
@@ -138,7 +139,7 @@ import placeholder from '@/assets/placeholder.jpg'
                             </div>
 
                             <div class="flex items-center gap-4">
-                                <img :src="placeholder" alt="Kelci Huang" class="w-16 h-16 rounded-full object-cover" />
+                                <img :src="kelci" alt="Kelci Huang" class="w-16 h-16 rounded-full object-cover" />
                                 <!-- Kelci Huang -->
                                 <div>
                                     <a href="https://www.linkedin.com/in/yingchao-kelci-huang-28428171/" target="_blank"
@@ -154,73 +155,6 @@ import placeholder from '@/assets/placeholder.jpg'
                             </div>
                         </div>
 
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- ======================= -->
-            <!-- Technical Architecture -->
-            <!-- ======================= -->
-            <div class="py-24 bg-gray-50 px-10 rounded-3xl">
-
-                <!-- Title -->
-                <div class="text-center max-w-3xl mx-auto">
-                    <h2 class="text-4xl md:text-5xl font-bold tracking-tight text-gray-900">
-                        Technical Architecture
-                    </h2>
-
-                    <p class="mt-6 text-lg text-gray-600">
-                        Nutri Pilot is built as a modular full-stack AI platform designed for scalability and real-time
-                        food analysis.
-                    </p>
-                </div>
-
-                <!-- Architecture Columns -->
-                <div class="mt-20 grid md:grid-cols-3 gap-16">
-
-                    <!-- Frontend -->
-                    <div>
-                        <h3 class="text-xl font-semibold text-gray-900">
-                            Frontend
-                        </h3>
-
-                        <ul class="mt-6 space-y-3 text-gray-600 leading-relaxed">
-                            <li>Flutter cross-platform mobile application</li>
-                            <li>Vue 3 + Tailwind landing website</li>
-                            <li>Component-based UI architecture</li>
-                        </ul>
-                    </div>
-
-                    <!-- Backend -->
-                    <div>
-                        <h3 class="text-xl font-semibold text-gray-900">
-                            Backend
-                        </h3>
-
-                        <ul class="mt-6 space-y-3 text-gray-600 leading-relaxed">
-                            <li>FastAPI asynchronous REST API</li>
-                            <li>Python AI image analysis pipeline</li>
-                            <li>Request validation & rate limiting</li>
-                            <li>Scalable service architecture</li>
-                        </ul>
-                    </div>
-
-                    <!-- Infrastructure -->
-                    <div>
-                        <h3 class="text-xl font-semibold text-gray-900">
-                            Infrastructure
-                        </h3>
-
-                        <ul class="mt-6 space-y-3 text-gray-600 leading-relaxed">
-                            <li>Gpt-5.4-mini integeration</li>
-                            <li>Cloudflare R2 object storage</li>
-                            <li>Persistent database storage</li>
-                            <li>RESTful API communication</li>
-                            <li>Container-ready deployment</li>
-                        </ul>
                     </div>
 
                 </div>
