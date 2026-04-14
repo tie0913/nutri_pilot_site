@@ -48,7 +48,7 @@ import kelci from '@/assets/kelci.png'
                                         Tie Wang
                                     </a>
                                     <p class="mt-2 text-sm text-gray-500">
-                                        System Architect · Full-Stack Developer · DevOps
+                                        Full-Stack Developer · DevOps
                                     </p>
                                 </div>
                             </div>
